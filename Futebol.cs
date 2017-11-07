@@ -2,11 +2,16 @@
 
 namespace Futebol
 {
-    class Program
+    class Tabela
     {
-        static void Main(string[] args)
+        public List<Times> times = new List<Time>();
+        public void tabela()
         {
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Menu");
+            System.Console.WriteLine("Enter - Adiciona time e pontuação \n0 - FInaliza e exibe a tabela");
+
+            While (Console.ReadKey().Key == ConsoleKey.Enter) 
+
         }
     }
 }
