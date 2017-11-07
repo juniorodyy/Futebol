@@ -4,7 +4,7 @@ namespace Futebol
 {
     class Tabela
     {
-        public List Times times = new List Time();
+        public List <Times> times = new List <Time>();
         public void tabela()
         {
             System.Console.WriteLine("Tabela");
