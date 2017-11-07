@@ -11,6 +11,8 @@ namespace Futebol
             this.time = nomeTime;
             this.pont = pontuacao;
         }
-
+        public void dados() {
+            System.Console.WriteLine("\ntime: " + time + " | pontuação: " + pont);
+        }
     }
 } 
