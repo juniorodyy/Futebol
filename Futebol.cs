@@ -7,7 +7,7 @@ namespace Futebol
         public List Times times = new List Time();
         public void tabela()
         {
-            System.Console.WriteLine("Menu");
+            System.Console.WriteLine("Tabela");
             System.Console.WriteLine("Enter - Adiciona time e pontuação \n0 - FInaliza e exibe a tabela");
 
             While (Console.ReadKey().Key == ConsoleKey.Enter) {
@@ -16,8 +16,13 @@ namespace Futebol
 
                  System.Console.WriteLine("Diga a pontuação do time: ");
                  int pont = convert.ToInt32(Console.ReadLine());
+
+                 this.times.Add(new Time(time, pont));
             }
 
+            for (int i = 0; 1 < times.Count; i++){
+                times[i].dados();
+            }
         }
     }
 }
