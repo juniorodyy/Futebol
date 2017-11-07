@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/console-dotnet/Futebol/Futebol.csproj",
+      "projectUniqueName": "/home/ubuntu/ody/Futebol/Futebol.csproj",
       "projectName": "Futebol",
-      "projectPath": "/home/ubuntu/console-dotnet/Futebol/Futebol.csproj",
+      "projectPath": "/home/ubuntu/ody/Futebol/Futebol.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/console-dotnet/Futebol/obj/",
+      "outputPath": "/home/ubuntu/ody/Futebol/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

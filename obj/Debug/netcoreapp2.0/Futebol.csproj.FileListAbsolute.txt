@@ -1,0 +1,10 @@
+/home/ubuntu/ody/Futebol/obj/Debug/netcoreapp2.0/Futebol.csproj.CoreCompileInputs.cache
+/home/ubuntu/ody/Futebol/obj/Debug/netcoreapp2.0/Futebol.AssemblyInfoInputs.cache
+/home/ubuntu/ody/Futebol/obj/Debug/netcoreapp2.0/Futebol.AssemblyInfo.cs
+/home/ubuntu/ody/Futebol/bin/Debug/netcoreapp2.0/Futebol.deps.json
+/home/ubuntu/ody/Futebol/bin/Debug/netcoreapp2.0/Futebol.runtimeconfig.json
+/home/ubuntu/ody/Futebol/bin/Debug/netcoreapp2.0/Futebol.runtimeconfig.dev.json
+/home/ubuntu/ody/Futebol/bin/Debug/netcoreapp2.0/Futebol.dll
+/home/ubuntu/ody/Futebol/bin/Debug/netcoreapp2.0/Futebol.pdb
+/home/ubuntu/ody/Futebol/obj/Debug/netcoreapp2.0/Futebol.dll
+/home/ubuntu/ody/Futebol/obj/Debug/netcoreapp2.0/Futebol.pdb
