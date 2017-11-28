@@ -1,14 +1,15 @@
-﻿
-using System;
+﻿using System;
 
-namespace Futebol
+namespace Brasileirao
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Tabela tabela = new Tabela();
-            tabela.tabela();
+            ConsoleKeyInfo a;
+            TabelaBrasileirao t = new TabelaBrasileirao();
+
+           
         }
     }
 }
