@@ -5,25 +5,19 @@ namespace Futebol
 {
     class Tabela
     {
-        public List<Times> times = new List<Times>();
-        public void tabela()
-        {
-            System.Console.WriteLine("Tabela");
-            System.Console.WriteLine("Enter - Adiciona time e pontuação \n0 - exibe a tabela");
-
-             while (Console.ReadKey().Key == ConsoleKey.Enter) {
-                System.Console.WriteLine("Diga o nome do time: ");
-                string time = Console.ReadLine();
-
-                 System.Console.WriteLine("Diga a pontuação do time: ");
-                 int pont = Convert.ToInt32(Console.ReadLine());
-
-                 this.times.Add(new Times(time, pont));
-            }
-
-            for (int i = 0; 1 < times.Count; i++){
-                times[i].dados();
-            }
+        public List<Times> times;
+        const int quantrebaixados = 2;
+        
+        public Tabela() {
+            times = new List<Times>();
         }
+        
+        public void resultado() {
+            for (int i = 0; i < this.times.Count; i++)
+                time.Scort((a, b) => b.pont.CompareTo(a.pont));
+                System.Console.WriteLine($"Time: {times[i].time} - Pontuação: {times[i].pont}");
+        }
+
+        
     }
 }
