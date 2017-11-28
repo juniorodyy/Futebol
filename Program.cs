@@ -1,24 +1,13 @@
 ﻿using System;
 
-namespace Brasileirao
+namespace Futebol
 {
     class Program
     {
         static void Main(string[] args)
         {
             ConsoleKeyInfo a;
-            TabelaBrasileirao t = new TabelaBrasileirao();
-
-           using System;
-
-namespace Brasileirao
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            ConsoleKeyInfo a;
-            TabelaBrasileirao t = new TabelaBrasileirao();
+            Tabela t = new Tabela();
 
             do {
                 System.Console.WriteLine("Menu:");

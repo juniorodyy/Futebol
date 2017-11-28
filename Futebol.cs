@@ -13,9 +13,10 @@ namespace Futebol
         }
         
         public void resultado() {
-            for (int i = 0; i < this.times.Count; i++)
-                time.Scort((a, b) => b.pont.CompareTo(a.pont));
+            for (int i = 0; i < this.times.Count; i++) {
+                times.Sort((a, b) => b.pont.CompareTo(a.pont));
                 System.Console.WriteLine($"Time: {times[i].time} - Pontuação: {times[i].pont}");
+            }        
         }
 
         
